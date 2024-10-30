@@ -1,0 +1,51 @@
+
+@font-face {
+    font-family: "littlejoodles";
+    src: url("/fonts/Littlejoodles-Regular.ttf");
+}
+
+body {
+    font-family: "littlejoodles", sans-serif;
+    background: linear-gradient(#ffc5eb 75%, white 100%);
+    background-repeat: no-repeat;
+    
+}
+
+body img {
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+body form {
+    width: 30px;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 24px;
+}
+
+body label[for=uname], label[for=psw] {
+    font-size: 32px;
+    color: #98FB98;
+    padding-left: 10px;
+}
+
+body input {
+    border-radius: 25px;
+    border: 2px solid #ffc5eb;
+    padding: 20px; 
+    width: 200px;
+    height: 15px; 
+    font-family: "littlejoodles", sans-serif;
+    font-size: 32px;
+}
+
+body input[type=text]:focus, body input[type=password]:focus {
+    border: 3px solid #98FB98;
+  }
+
+
+
